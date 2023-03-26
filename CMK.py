@@ -135,12 +135,14 @@ while True:
 
     except NoSuchElementException:
 
+        print("Element bulunamadı hatası aldı.")
         driver.quit()
 
     except TimeoutException:
 
+        print("Zaman hatası aldı.")
         driver.quit()
 
     except InvalidSessionIdException:
-
+        print("Invalid Session hatası aldı.")
         driver.quit()
