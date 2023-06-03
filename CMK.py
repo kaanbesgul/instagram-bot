@@ -152,7 +152,7 @@ while True:
 
     try:
 
-        instagram_comment_on_last_post("uslandeli8","3*hdpj9Gh`#_Hx?",musteri.musteriler)
+        instagram_comment_on_last_post("username","password",musteri.musteriler)
 
     except NoSuchElementException:
 
